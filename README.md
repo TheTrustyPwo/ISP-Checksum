@@ -20,7 +20,8 @@ mapping = {11: 'A', 12: 'B', 10: 'E', 9: 'H', 8: 'J', 7: 'L',
            6: 'M', 5: 'N', 4: 'R', 3: 'U', 2: 'W', 1: 'X', 0: 'Y'}
 ```
 
-By inspection, the identification numbers are distributed in order of, and within each subsection, they are sorted by
+By inspection, the identification numbers are distributed in order of different groups of students, and within each
+group, they are sorted by
 name. On the right, the numbers show the boundary numbers for the batch of 2020:
 
 | Group       | Start  | End    |
@@ -33,4 +34,5 @@ name. On the right, the numbers show the boundary numbers for the batch of 2020:
 This set of numbers would in theory mean that there are 1095 in the cohort. However, in reality there are only 1057
 students. This is due to some numbers not being taken, presumably due to errors in the admission process.
 
-It is also interesting to note that the 2020 batch started from an identification number of xx2157, but previous batches began counting from a much lower number of below xx1600.
+It is also interesting to note that the 2020 batch started from an identification number of xx2157, but previous batches
+began counting from a much lower number of below xx1600.
